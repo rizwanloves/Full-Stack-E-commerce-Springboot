@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Commerce</title>
+</head>
+
+<body>
+    <header id="page-header">
+        <h1 class="project-name">Full Stack E-Commerce Project in Spring Boot </h1>
+        <h2 class="project-tagline">Multi-Vendor E-Commerce Project using Spring Boot + React JS + MySQL</h2>
+    </header>
+
+    <main id="main-content">
+        <h1 class="heading">E-Commerce Multi-Vendor Shopping System Project using Spring Boot & React JS</h1>
+        <p class="paragraph"><b> E-Commerce Multi-vendor Project using Spring Boot & React Js </b> ensures a seamless
+            experience for all involved. As an administrator, you can easily add product categories to the system. The
+            seller can register himself in the system and after login, he can add multiple delivery persons for him, he
+            can add his products to the system by selecting the product category to which the admin was added.
+            Basically, Multiple Sellers can add their multiple products to the system. Once the Seller adds the product,
+            all the customers who will visit the website will be able to see the products along with the seller's
+            details. And they will be able to search the products by selecting the category and also they can view
+            products based on the seller.
+            Customers can add the products to the cart and order the products from the cart. After the Orders, Sellers
+            will be able to view their Orders and now they can assign their delivery person for the order deliveries.
+            Once the delivery person is assigned to the order, the delivery person can log into the system and update
+            the order delivery status at any time. In the end, the Customer will be able to see the updated status of
+            his orders and Admin will be able to see the complete order details of all the customers from all sellers.
+        </p>
+
+        <div>
+            <img src="images/ECOM MULTIVENDOR (1)crp.png">
+
+        </div>
+        <h1 class="heading">Technologies Used in E-Commerce Project</h1>
+
+        <ol>
+            <li>Spring Boot 3 (REST APIS)</li>
+            <li>Spring Security 6 </li>
+            <li>React JS (Frontend)</li>
+            <li>MySQL for Database</li>
+            <li>Maven for project management</li>
+            <li>Bootstrap (Styling)</li>
+        </ol>
+
+        <h1 class="heading">Software Used in E-Commerce Multi-Vendor Project</h1>
+
+        <h3>1. STS (Spring Tool Suite)</h3>
+        <p>For developing our backend, E-commerce Multi-vendor shopping project using Spring Boot, we have used STS
+            (Spring Tool Suite) or Eclipse Ide. But yes, we can use other IDEs like Intellij Idea, NetBeans, etc.</p>
+
+        <h3>2. VS Code (Visual Studio Code)</h3>
+        <p>For developing our frontend, E-commerce Multi-vendor shopping project using React JS, we have used VS Code
+            (Visual Studio Code).</p>
+
+        <h3>3. MySQL Workbench</h3>
+        <p>For efficient querying and manipulation of our Project's information, we have used MySQL Workbench. </p>
+
+        <h1 class="heading">User Modules in E-Commerce Multi-Vendor Project</h1>
+        <p>The project basically has four user modules:</p>
+        <ol>
+            <li>ADMINISTRATOR MODULE</li>
+            <li>SELLER MODULE</li>
+            <li>CUSTOMER MODULE</li>
+            <li>DELIVERY MODULE</li>
+        </ol>
+
+        <h1 class="heading">Functional Modules in E-Commerce Multi-Vendor Project</h1>
+
+        <h3>1. User Authentication Module: </h3>
+        <p>The registration and Login system has been added so that only authenticated users (Admin, Seller, Delivery,
+            or Customer) can perform their functionalities. For authentication, we have used Spring Security 6 and JWT.
+        </p>
+
+        <h3>2. Seller Module:</h3>
+        <p>Register Seller, Seller Login, View All Sellers, Delete Seller.</p>
+
+        <h3>3. Product Category Module:</h3>
+        <p>Add Category, Update Category, View All Category, Delete Category.</p>
+
+        <h3>4. Product Module:</h3>
+        <p>Add Product, Update Product, View All Products, Search Products by Category, Search Products by Seller,
+            Search By Product Name, Delete Product.</p>
+
+        <h3>5. Cart Module:</h3>
+        <p>Add Product to Cart, View Cart, Update Cart, Delete Product from Cart.</p>
+
+        <h3>6. Order Module:</h3>
+        <p>Order Products, View Customer Orders, View Seller Orders, and View All Orders.</p>
+
+        <h3>7. Delivery Person Module:</h3>
+        <p>Register Delivery Person for Seller, View Delivery Persons, Delete Delivery Person.</p>
+
+        <h3>8. Order Delivery Module:</h3>
+        <p>Assign Delivery to Delivery Person, View Delivery Person's Order Delivery, Update Order Delivery Status, View
+            Updated Order Status.</p>
+
+        <h1 class="heading">ROLES OF USER</h1>
+
+        <h2>ADMIN ROLE</h2>
+
+        <h3>1. Admin will be able to log in to the System.</h3>
+        <p>When we successfully run our spring boot application, it automatically creates a default Admin with the
+            credential <b>"demo.admin@demo.com"</b> as the email and <b>"123456"</b> password. So by using this, the
+            admin can log in to the system. By using the below form, All users (Admin, Seller, Delivery & Customer) can
+            log into the system by selecting the user role.</p>
+        <img src="images/A1.png" alt="">
+
+        <h3>2. Admin can register other admins.</h3>
+        <p>After the Admin login, the admin can register Admins into the system by using the below form.</p>
+        <img src="images/A2.png" alt="">
+
+        <h3>3. Admin can add Product Categories</h3>
+        <p>Admin can add multiple categories into the system and Sellers can add the products from these categories
+            only.</p>
+        <img src="images/A3.png" alt="">
+
+        <h3>4. Admin can view and delete the sellers</h3>
+        <p>Admin can view all the registered sellers in the system and at any time admin can delete the seller by
+            clicking on the delete button. Once the admin deletes the seller, all products added by the seller will also
+            get deleted and delivery persons of that seller will also get deactivated from the system.</p>
+        <img class="vertical-image" src="images/A4.png" alt="">
+
+        <h3>5. The Admin can view all the delivery persons from all the sellers.</h3>
+        <p>Admin can view all the registered delivery persons from all the sellers.</p>
+        <img class="vertical-image" src="images/A5.png" alt="">
+
+        <h3>6. Admin can view all the products.</h3>
+        <p>Admin can view all the products from all the sellers.</p>
+        <img class="vertical-image" src="images/A6.png" alt="">
+
+        <h3>7. Admin can view and delete the product categories</h3>
+        <p>Admin can view all the product categories added by him and he can delete the categories by clicking on the
+            delete button. Once Admin deletes the category, all the products under that category from all sellers will
+            also get deleted.</p>
+        <img class="vertical-image" src="images/A7a.png" alt="">
+
+        <h3>8. Admin can update the Category.</h3>
+        <p>Admin can update the Category by below form.</p>
+        <img src="images/A8.png" alt="">
+
+        <h3>9. Admin can view all the Customer orders.</h3>
+        <p>Admin can view all the customer orders from all the sellers, he can also search the orders by order ID as
+            shown below</p>
+        <img class="vertical-image" src="images/A9.png" alt="">
+
+        <h3>10. Admin can view all the Customers.</h3>
+        <p>Admin can view all the registered customers in the system.</p>
+        <img class="vertical-image" src="images/A10.png" alt="">
+
+        <hr style="border: 2px solid black ; margin-top: 80px; margin-bottom: 80px;border-color: #159957;">
+
+        <h2>SELLER ROLE</h2>
+
+        <h3>1. Seller can register himself by using the below form.</h3>
+        <P></P>
+        <img class="horizonal-image" src="images/S1.png" alt="">
+
+        <h3>2. Seller can register the Delivery Person by using the below form.</h3>
+        <p></p>
+        <img class="horizonal-image" src="images/S2.png" alt="">
+
+        <h3>3. Seller can add his product</h3>
+        <p>The seller can add his products to the system by the below form.</p>
+        <img class="horizonal-image" src="images/S3.png" alt="">
+
+        <h3>4. Seller can view all his products</h3>
+        <p>The seller can view all the products which were added to him and by clicking on the delete button he can also
+            delete the product.</p>
+        <img class="vertical-image" src="images/S4.png" alt="">
+
+        <h3>5. Seller can update his product.</h3>
+        <p>The seller can update any of his products at any time.</p>
+        <img class="vertical-image" src="images/S5.png" alt="">
+
+        <h3>6. Seller can view and delete Delivery Persons.</h3>
+        <p>The seller can view all the delivery persons which was registered by him and at any time he can delete the
+            delivery persons.</p>
+        <img class="vertical-image" src="images/S6.png" alt="">
+
+        <h3>7. Seller can view all his orders.</h3>
+        <p>The seller can view all the customer orders of his products as shown</p>
+        <img class="vertical-image" src="images/S7.png" alt="">
+
+        <h3>8. Seller can assign a delivery person for an order.</h3>
+        <p>The seller can assign a delivery person for the customer's orders</p>
+        <img class="horizonal-image" src="images/S8.png" alt="">
+
+        <hr style="border: 2px solid black ; margin-top: 80px; margin-bottom: 80px;border-color: #159957;">
+
+        <h2>CUSTOMER ROLE</h2>
+
+        <h3>1. Customer can register himself by using the below form</h3>
+        <p></p>
+        <img class="horizonal-image" src="images/C1.png" alt="">
+
+        <h3>2. Customers can search for products by name.</h3>
+        <p></p>
+        <img class="vertical-image" src="images/C2.png" alt="">
+
+        <h3>3. Customers can search products by category as shown below.</h3>
+        <p></p>
+        <img class="vertical-image" src="images/C3.png" alt="">
+
+        <h3>4. Customers can add products to their cart.</h3>
+        <p>Customers can view product details and add the products to the cart. And here customers will be able to see
+            the product reviews by other customers.</p>
+        <img class="vertical-image" src="images/C4.png" alt="">
+
+        <h3>5. Customers can view their cart.</h3>
+        <p>Customer can view the products in their cart, they can increase or decrease the product quantity of products
+            or simply they can delete the product from the cart, and below they will be able to see the total cart
+            amount as shown below.</p>
+        <img class="vertical-image" src="images/C5.png" alt="">
+        <p>After clicking on the checkout button, it will get redirected to the dummy payment page.</p>
+        <img class="horizonal-image" src="images/C5a.png" alt="">
+
+        <h3>6. Customers can view their orders.</h3>
+        <p>Customers can view all ordered products along with the delivery status as shown below.</p>
+        <img class="vertical-image" src="images/C6.png" alt="">
+
+        <hr style="border: 2px solid black ; margin-top: 80px; margin-bottom: 80px;border-color: #159957;">
+
+        <h2>DELIVERY PERSON ROLE</h2>
+
+        <h3>1. The Delivery Person can view Delivery Orders assigned to him</h3>
+        <p>Delivery Person can view all the delivery orders assigned to them by the seller as shown below.</p>
+        <img class="vertical-image" src="images/D1.png" alt="">
+
+        <h3>2. The Delivery Person can update the Delivery Status of Orders.</h3>
+        <p>The delivery Person can update the Delivery Status of the orders that were assigned to him by the seller. and
+            the same status will be visible to all i.e. Admin, Customer (who made orders), and Seller.</p>
+        <img class="horizonal-image" src="images/D2.png" alt="">
+
+    </main>
+
+
+    <footer id="footer">
+        <h1 style="margin-left: 50px;">Contributors </h1>
+        <div class="img-div">
+            <div>
+                <a href="https://github.com/rizwanloves" target="_blank"">
+                    <img class="profile-img"
+                        src="https://avatars.githubusercontent.com/u/79851306?s=400&u=2d34aecc0118658c06238a470f4a4832713c0d3f&v=4"
+                        alt="">
+                </a>
+                <h3 class="profile-name">Rizwan Ahmed</h3>
+            </div>
+
+            <div style="margin-left: 40px;">
+                <a href="https://github.com/divyapandey2000" target="_blank"">
+                    <img class="profile-img" src="https://avatars.githubusercontent.com/u/121920975?v=4" alt="">
+                </a>
+                <h3 class="profile-name">Divya Pandey</h3>
+            </div>
+        </div>
+        <h4 style="text-align: center;">This page was generated by <a style="text-decoration: none; color: whitesmoke; font-weight: 400;" href="https://pages.github.com/"> Github Pages</a></h4>
+    </footer>
+
+</body>
+
+</html>
