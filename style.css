@@ -1,0 +1,110 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    /* color: #606c71 */
+    color: rgb(79, 74, 74);
+
+}
+
+#page-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    flex-direction: column;
+    color: #fff;
+    
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957)
+
+} 
+
+.project-name{
+    margin-bottom: 0;
+    font-size: 46px;
+    margin-top: 0;
+}
+
+
+.project-tagline {
+    opacity: 0.7;
+}
+
+#main-content{
+    padding: 2rem 15rem;
+}
+
+.heading{
+    margin-top: 50px;
+    font-weight: 200;
+    font-size: 35px;
+    color: #159957;
+}
+
+.paragraph{
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+
+li {
+    font-size: 20px;
+    line-height: 2;
+    color: rgb(27, 25, 25);
+    font-weight: 530;
+
+  }
+
+  h3{
+    font-size: 20px;
+    color: rgb(44, 43, 43);
+    margin-bottom: -10px;
+  }
+
+
+  .vertical-image{
+    width: 100%;
+    height: auto;
+  }
+
+.horizonal-image{
+    
+    width: auto;
+    height: 400px;
+    text-align: center;
+}
+
+div img{
+    width : 70%;
+    height: auto;
+    
+}
+div{
+    text-align: center;
+}
+
+#footer{
+    height: 250px;
+    background-color: #159957;
+    color: #fff;
+}
+.profile-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.img-div{
+    display: flex;
+    margin-left: 40px;
+    
+}
+
+.profile-name{
+    margin-top: -6px;
+    color: whitesmoke;
+}
